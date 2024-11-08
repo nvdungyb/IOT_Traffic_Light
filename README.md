@@ -4,3 +4,6 @@
 
   + Trong file traffic.py ở model ai, sửa hàm detect_api
       + ![image](https://github.com/user-attachments/assets/939eda19-9c8f-483b-89df-a3c61dd6ee30)
+
+  + Gửi dữ liệu ảnh dạng base64 lên server:
+    + ![image](https://github.com/user-attachments/assets/cb604474-0747-4787-8547-a9c082ff1d27)
