@@ -1,4 +1,4 @@
-package iot.AI;
+package iot.service;
 
 import iot.entity.Vehicle;
 import iot.repository.VehicleRepository;
