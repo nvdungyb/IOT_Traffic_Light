@@ -2,6 +2,7 @@ package iot.service;
 
 import iot.entity.Vehicle;
 import iot.repository.VehicleRepository;
+import iot.util.ImageUtil;
 import org.json.JSONObject;
 import org.springframework.stereotype.Service;
 
@@ -47,6 +48,8 @@ public class ImageProcessService {
 
             // Lưu vào csdl và trả imageId.
             imageId = vehicleRepository.save(vehicle).getId();
+//             Luu anh vao resources/static/images
+            ImageUtil.saveImage(imageBase64);
 
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
